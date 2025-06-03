@@ -118,3 +118,25 @@ button:hover {
         background-color: rgba(0, 0, 0, 0.4);
     }
 }
+.signature {
+    margin-top: 30px;
+    font-family: 'Comic Neue', cursive;
+    font-size: 1.4rem;
+    color: #d81b60;
+    text-align: right;
+    padding-right: 20px;
+    animation: floatIn 1s ease-in-out;
+}
+
+/* Optional subtle animation */
+@keyframes floatIn {
+    from {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
